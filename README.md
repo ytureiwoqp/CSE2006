@@ -1,9 +1,11 @@
 # Library Management System
 
-A console (command-line) program written in **Java** for the course *CSE2006 – Programming in Java*.
+A console (command-line) program written in Java for the course CSE2006 – Programming in Java.
 It keeps track of books, magazines, members and loans. Data is stored in a small embedded database
 (H2) using **JDBC**, so no database server, GUI or internet service is needed.
 
+Name: Manvendra Kumar
+Regestration Number: 25BAI11479
 ## What it does
 
 - Add, list, search and delete books and magazines
@@ -15,10 +17,8 @@ It keeps track of books, magazines, members and loans. Data is stored in a small
 
 ## Requirements
 
-| Tool | Version | Check with |
-|---|---|---|
-| JDK (not only a JRE) | 17 or newer | `java -version` and `javac -version` |
-| Apache Maven | 3.8 or newer | `mvn -version` |
+| JDK (not only a JRE) | 17 or newer| 
+| Apache Maven | 3.8 or newer |
 
 Maven downloads the H2 library automatically the first time (internet needed once).
 Prefer not to use Maven? See "Running without Maven" below.
@@ -28,8 +28,8 @@ Prefer not to use Maven? See "Running without Maven" below.
 **1. Get the code and open the project folder** (the folder that contains `pom.xml`):
 
 ```bash
-git clone https://github.com/<github-username>/library-management-system.git
-cd library-management-system
+git clone https://https://github.com/ytureiwoqp/CSE2006/
+cd CSE2006
 ```
 
 **2. Start the program:**
