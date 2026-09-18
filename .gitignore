@@ -1,0 +1,16 @@
+# build output
+target/
+out/
+test-out/
+*.class
+
+# runtime files created by the app (the sample CSV in data/ IS kept)
+data/librarydb*
+output/
+backups/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
